@@ -350,11 +350,6 @@ template {
   left: 0;            /* 左端に合わせる */
   width: 100%;        /* 横幅いっぱいに広げる */
   z-index: 9999;
-  -webkit-animation: header-effect 1s;
-  -moz-animation: header-effect 1s;
-  -o-animation: header-effect 1s;
-  -ms-animation: header-effect 1s;
-  animation: header-effect 1s;
 }
 #site-title,
 #site-subtitle {
