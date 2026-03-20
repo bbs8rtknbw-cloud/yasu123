@@ -4287,7 +4287,7 @@ figure.highlight pre .javascript .function {
   font-size: 1.43em;
 }
 #page-header #scroll-down {
-  position: absolute;
+  position: fixed;
   bottom: 10px;
   width: 100%;
   cursor: pointer;
