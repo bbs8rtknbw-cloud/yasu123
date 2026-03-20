@@ -4198,12 +4198,6 @@ figure.highlight pre .javascript .function {
   text-shadow: 2px 2px 4px rgba(0,0,0,0.15);
   font-size: 1.43em;
 }
-#page-header #scroll-down {
-  position: fixed;
-  bottom: 10px;
-  width: 100%;
-  cursor: pointer;
-}
 #page-header.not-home-page {
   height: 400px;
 }
@@ -4318,40 +4312,6 @@ figure.highlight pre .javascript .function {
   -o-transition: all 0.5s;
   -ms-transition: all 0.5s;
   transition: all 0.5s;
-}
-#page-header.nav-visible:not(.fixed) #nav {
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  transition: all 0.5s;
-  -webkit-transform: translate3d(0, 100%, 0);
-  -moz-transform: translate3d(0, 100%, 0);
-  -o-transform: translate3d(0, 100%, 0);
-  -ms-transform: translate3d(0, 100%, 0);
-  transform: translate3d(0, 100%, 0);
-}
-#page-header.nav-visible:not(.fixed) + .layout > .aside-content > .sticky_layout {
-  top: 70px;
-  -webkit-transition: top 0.5s;
-  -moz-transition: top 0.5s;
-  -o-transition: top 0.5s;
-  -ms-transition: top 0.5s;
-  transition: top 0.5s;
-}
-#page-header.fixed #nav {
-  position: fixed;
-}
-#page-header.fixed + .layout > .aside-content > .sticky_layout {
-  top: 70px;
-  -webkit-transition: top 0.5s;
-  -moz-transition: top 0.5s;
-  -o-transition: top 0.5s;
-  -ms-transition: top 0.5s;
-  transition: top 0.5s;
-}
-#page-header.fixed + .layout #card-toc .toc-content {
-  max-height: calc(100vh - 170px);
 }
 #page .page-title {
   margin: 0 0 10px;
