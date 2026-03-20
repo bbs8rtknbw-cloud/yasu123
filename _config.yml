@@ -1,0 +1,22 @@
+# サイト基本情報
+title: "My Website"
+description: "これは私のウェブサイトです"
+url: "https://thourth.github.io"  # ご自身の GitHub Pages URL に置き換えてください
+baseurl: ""                        # サブディレクトリに置く場合は /リポジトリ名 に変更
+
+# テーマ
+theme: minima                       # GitHub Pages 推奨のデフォルトテーマ。別テーマを使う場合は name に変更
+
+# Markdown 設定
+markdown: kramdown
+kramdown:
+  input: GFM                        # GitHub Flavored Markdown
+
+# パーミッション・表示設定
+paginate: 5                         # 1ページあたりの投稿数
+paginate_path: "/page:num/"
+
+# 高度なオプション（必要に応じて追加）
+plugins:                             # GitHub Pages で有効なプラグイン
+  - jekyll-feed
+  - jekyll-seo-tag
