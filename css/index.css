@@ -350,7 +350,7 @@ template {
   -moz-animation: header-effect 1s;
   -o-animation: header-effect 1s;
   -ms-animation: header-effect 1s;
-  animation: header-effect 5s;
+  animation: header-effect 1s;
 }
 #site-title,
 #site-subtitle {
@@ -728,11 +728,11 @@ canvas:not(#ribbon-canvas),
 }
 @-moz-keyframes header-effect {
   0% {
-    -webkit-transform: translateY(-35px);
-    -moz-transform: translateY(-35px);
-    -o-transform: translateY(-35px);
-    -ms-transform: translateY(-35px);
-    transform: translateY(-35px);
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px);
   }
   100% {
     -webkit-transform: translateY(0);
@@ -744,11 +744,11 @@ canvas:not(#ribbon-canvas),
 }
 @-webkit-keyframes header-effect {
   0% {
-    -webkit-transform: translateY(-35px);
-    -moz-transform: translateY(-35px);
-    -o-transform: translateY(-35px);
-    -ms-transform: translateY(-35px);
-    transform: translateY(-35px);
+    -webkit-transform: translateY(-55px);
+    -moz-transform: translateY(-55px);
+    -o-transform: translateY(-55px);
+    -ms-transform: translateY(-55px);
+    transform: translateY(-55px);
   }
   100% {
     -webkit-transform: translateY(0);
