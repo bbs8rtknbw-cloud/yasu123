@@ -228,11 +228,9 @@ template {
   padding: 0;
 }
 .layout .pagination > *:not(.space) {
-  bordor-bottom: 1px solid #ccc;
+  background: rgba(157, 126, 126, 0.03);
+  bordor-bottom: 1px solid #b76b6b;
   padding: 16px 0px;
-}
-#recent-posts .recent-post-item:hover {
-  background: rgba(0,0,0,0.03);
 }
 .imgHover,
 .article-sort-item-img :first-child,
