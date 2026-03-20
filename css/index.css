@@ -725,15 +725,134 @@ canvas:not(#ribbon-canvas),
     transform: translate(0, 0);
   }
 }
-
-
-
-
-
-
-
-
-
+@-moz-keyframes header-effect {
+  0% {
+    -webkit-transform: translateY(-35px);
+    -moz-transform: translateY(-35px);
+    -o-transform: translateY(-35px);
+    -ms-transform: translateY(-35px);
+    transform: translateY(-35px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes header-effect {
+  0% {
+    -webkit-transform: translateY(-35px);
+    -moz-transform: translateY(-35px);
+    -o-transform: translateY(-35px);
+    -ms-transform: translateY(-35px);
+    transform: translateY(-35px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@-o-keyframes header-effect {
+  0% {
+    -webkit-transform: translateY(-35px);
+    -moz-transform: translateY(-35px);
+    -o-transform: translateY(-35px);
+    -ms-transform: translateY(-35px);
+    transform: translateY(-35px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes header-effect {
+  0% {
+    -webkit-transform: translateY(-35px);
+    -moz-transform: translateY(-35px);
+    -o-transform: translateY(-35px);
+    -ms-transform: translateY(-35px);
+    transform: translateY(-35px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@-moz-keyframes bottom-top {
+  0% {
+    -webkit-transform: translateY(35px);
+    -moz-transform: translateY(35px);
+    -o-transform: translateY(35px);
+    -ms-transform: translateY(35px);
+    transform: translateY(35px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes bottom-top {
+  0% {
+    -webkit-transform: translateY(35px);
+    -moz-transform: translateY(35px);
+    -o-transform: translateY(35px);
+    -ms-transform: translateY(35px);
+    transform: translateY(35px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@-o-keyframes bottom-top {
+  0% {
+    -webkit-transform: translateY(35px);
+    -moz-transform: translateY(35px);
+    -o-transform: translateY(35px);
+    -ms-transform: translateY(35px);
+    transform: translateY(35px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes bottom-top {
+  0% {
+    -webkit-transform: translateY(35px);
+    -moz-transform: translateY(35px);
+    -o-transform: translateY(35px);
+    -ms-transform: translateY(35px);
+    transform: translateY(35px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
 @-moz-keyframes titleScale {
   0% {
     opacity: 0;
@@ -4108,7 +4227,7 @@ figure.highlight pre .javascript .function {
   transition: all 0.5s;
 }
 #page-header:not(.not-top-img):before {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
   background-color: var(--mark-bg);
@@ -4119,7 +4238,7 @@ figure.highlight pre .javascript .function {
   background-attachment: fixed;
 }
 #page-header.full_page #site-info {
-  position: absolute;
+  position: fixed;
   top: 43%;
   padding: 0 10px;
   width: 100%;
@@ -4167,7 +4286,7 @@ figure.highlight pre .javascript .function {
   font-size: 1.43em;
 }
 #page-header #scroll-down {
-  position: absolute;
+  position: fixed;
   bottom: 10px;
   width: 100%;
   cursor: pointer;
@@ -4187,7 +4306,7 @@ figure.highlight pre .javascript .function {
   }
 }
 #page-header #page-site-info {
-  position: absolute;
+  position: fixed;
   top: 200px;
   padding: 0 10px;
   width: 100%;
@@ -4206,7 +4325,7 @@ figure.highlight pre .javascript .function {
   }
 }
 #page-header #post-info {
-  position: absolute;
+  position: fixed;
   width: 100%;
   bottom: 30px;
 }
