@@ -2612,9 +2612,6 @@ figure.highlight pre .javascript .function {
     order: 0;
   }
 }
-#recent-posts .recent-post-item .post_cover .post-bg {
-  z-index: -4;
-}
 #recent-posts .recent-post-item >.recent-post-info {
   padding: 0 40px;
   width: 58%;
