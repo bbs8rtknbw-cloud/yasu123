@@ -3416,7 +3416,7 @@ figure.highlight pre .javascript .function {
   font-size: 1.2em;
 }
 #aside-content .item-headline span {
-  margin-left: 6px;
+  margin-left: 60px;
 }
 @media screen and (min-width: 900px) {
   #aside-content .sticky_layout {
