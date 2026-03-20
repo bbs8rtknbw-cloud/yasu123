@@ -7538,8 +7538,8 @@ blockquote.pullquote.right {
   padding: 5px 14px;
   width: 100%;
   outline: none;
-  border: 2px solid #a9d5cd;
-  border-radius: 40px;
+  border: 2px solid #1b201f;
+  border-radius: 3px;
   background: var(--search-bg);
   color: var(--search-input-color);
   -webkit-appearance: none;
@@ -7653,7 +7653,8 @@ blockquote.pullquote.right {
 .search-dialog .ais-Hits-list .local-search-hit-item a:hover,
 .search-dialog .search-result-list .ais-Hits-item a:hover,
 .search-dialog .ais-Hits-list .ais-Hits-item a:hover {
-  color: #a9d5cd;
+  color: #0018ef
+;
 }
 .search-dialog .search-result-list .local-search-hit-item .search-result-title,
 .search-dialog .ais-Hits-list .local-search-hit-item .search-result-title,
