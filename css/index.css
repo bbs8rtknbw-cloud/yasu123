@@ -7627,7 +7627,7 @@ blockquote.pullquote.right {
 .search-dialog .ais-Hits-list .local-search-hit-item a:hover,
 .search-dialog .search-result-list .ais-Hits-item a:hover,
 .search-dialog .ais-Hits-list .ais-Hits-item a:hover {
-  color: #a9d5cd;
+  color: #0007d1;
 }
 .search-dialog .search-result-list .local-search-hit-item .search-result-title,
 .search-dialog .ais-Hits-list .local-search-hit-item .search-result-title,
@@ -7744,7 +7744,7 @@ blockquote.pullquote.right {
   font-size: 12px;
 }
 .search-dialog .ais-Pagination .ais-Pagination-item--selected .ais-Pagination-link {
-  background: #a9d5cd;
+  background: #29312f;
   font-weight: 600;
   cursor: default;
 }
