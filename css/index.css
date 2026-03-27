@@ -7941,3 +7941,11 @@ blockquote.pullquote.right {
 .pub-list li::before {
   content: "[" counter(item) "] ";
 }
+.aff-link {
+  text-decoration: underline;
+  color: inherit;   /* 周囲と同じ色にする（好みに応じて変更可） */
+}
+
+.aff-link:hover {
+  color: #a9d5cd;   /* ホバー時に色を変える（任意） */
+}
