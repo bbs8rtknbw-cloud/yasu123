@@ -1733,7 +1733,7 @@ canvas:not(#ribbon-canvas),
 body {
   position: relative;
   overflow-y: scroll;
-  min-height: 100%;
+  min-height: 50%;
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
