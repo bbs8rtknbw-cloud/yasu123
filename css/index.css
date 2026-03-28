@@ -2429,7 +2429,7 @@ figure.highlight pre .javascript .function {
   -webkit-align-self: flex-start;
   align-self: flex-start;
   -ms-flex-item-align: start;
-
+  padding: 50px 40px;
   padding-top: 20px !important;
 }
 @media screen and (max-width: 768px) {
@@ -2463,7 +2463,7 @@ figure.highlight pre .javascript .function {
 }
 @media screen and (max-width: 768px) {
   #page-header.full_page {
-    height: 50vh; /* スマホ画面では50%の高さにする */
+    height: 30vh; /* スマホ画面では50%の高さにする */
   }
 }
 .apple #page-header.full_page {
@@ -4256,7 +4256,7 @@ figure.highlight pre .javascript .function {
 }
 
 #page-header.full_page {
-  height: 50vh !important; /* 変更②: 20vh important を 50vh !important に修正 (! が抜けていました) */
+  height: 30vh !important; /* 変更②: 20vh important を 50vh !important に修正 (! が抜けていました) */
   background-attachment: fixed !important;
 }
 
