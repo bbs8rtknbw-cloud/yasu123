@@ -2401,7 +2401,7 @@ figure.highlight pre .javascript .function {
   -ms-flex: 1 auto;
   flex: 1 auto;
   margin: 0 auto;
-  padding: 40px 15px;
+  padding: 20px 15px;
   max-width: 1200px;
   width: 100%;
 }
@@ -2417,7 +2417,7 @@ figure.highlight pre .javascript .function {
 }
 @media screen and (max-width: 768px) {
   .layout {
-    padding: 20px 5px;
+    padding: 50px 5px;
   }
 }
 @media screen and (min-width: 2000px) {
@@ -2439,6 +2439,7 @@ figure.highlight pre .javascript .function {
 }
 .layout > div:first-child {
   width: 100%;
+  padding-top: 20px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -4236,7 +4237,7 @@ figure.highlight pre .javascript .function {
 #page-header {
   position: relative;
   width: 100%;
-  background-color: #a9d5cd;
+  background-color: #ffffff;
   background-position: center center;
   background-size: cover; /* 変更①: 50% 50% ではなく cover に戻す */
   background-repeat: no-repeat;
@@ -4256,13 +4257,13 @@ figure.highlight pre .javascript .function {
 }
 
 #page-header.full_page {
-  height: 40vh !important; /* 変更②: 20vh important を 50vh !important に修正 (! が抜けていました) */
+  height: 45vh !important; /* 変更②: 20vh important を 50vh !important に修正 (! が抜けていました) */
   background-attachment: fixed !important;
 }
 
 #page-header.full_page #site-info {
   position: absolute;
-  top: 60%; /* 変更③: 43% を 50% に変更 */
+  top: 30%; /* 変更③: 43% を 50% に変更 */
   transform: translateY(-50%); /* 追加④: 文字を縦の「ど真ん中」に揃える設定 */
   padding: 0 10px;
   width: 100%;
@@ -7963,10 +7964,11 @@ blockquote.pullquote.right {
 }
 /* メインコンテンツを上に引き上げる */
 #content-inner {
-  margin-top: -65vh !important;
+  margin-top: -60vh !important;
   position: relative;
-  z-index: 10; 
+  z-index: 10;
+  background-color: var(--global-bg); /* 引き上げた時にヘッダーの背景が透けないようにする */
 }
 .layout > div:first-child:not(.nc) {
-  padding-top: -20px !important; /* 元々あった大きな上部余白(50px)を減らす */
+  padding-top: -10px !important; /* 元々あった大きな上部余白(50px)を減らす */
 }
