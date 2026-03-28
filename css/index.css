@@ -4257,14 +4257,14 @@ figure.highlight pre .javascript .function {
 }
 
 #page-header.full_page {
-  height: 45vh !important; /* 変更②: 20vh important を 50vh !important に修正 (! が抜けていました) */
+  height: 40vh !important; /* 変更②: 20vh important を 50vh !important に修正 (! が抜けていました) */
   background-attachment: fixed !important;
 }
 
 #page-header.full_page #site-info {
   position: absolute;
   top: 60%; /* 変更③: 43% を 50% に変更 */
-  transform: translateY(-50%); /* 追加④: 文字を縦の「ど真ん中」に揃える設定 */
+  transform: translateY(-60%); /* 追加④: 文字を縦の「ど真ん中」に揃える設定 */
   padding: 0 10px;
   width: 100%;
 }
@@ -7964,7 +7964,7 @@ blockquote.pullquote.right {
 }
 /* メインコンテンツを上に引き上げる */
 #content-inner {
-  margin-top: -60vh !important;
+  margin-top: -55vh !important;
   position: relative;
   z-index: 10;
   background-color: var(--global-bg); /* 引き上げた時にヘッダーの背景が透けないようにする */
