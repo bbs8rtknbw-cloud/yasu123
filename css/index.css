@@ -7970,5 +7970,5 @@ blockquote.pullquote.right {
   background-color: var(--global-bg); /* 引き上げた時にヘッダーの背景が透けないようにする */
 }
 .layout > div:first-child:not(.nc) {
-  padding-top: -15px !important; /* 元々あった大きな上部余白(50px)を減らす */
+  padding-top: -25px !important; /* 元々あった大きな上部余白(50px)を減らす */
 }
